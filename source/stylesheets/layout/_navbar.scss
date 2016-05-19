@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    height: 30px;
+    padding: 0px 30px;
+    align-items: center;
+    justify-content: flex-end;
+    background: transparent;
+    position: fixed;
+    width: 100%;
+    border-radius: 2px;
+}
+
+.navbar-link:hover {
+    color: #437032;
+    text-decoration: none;
+}
+
+.navbar-link {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+.navbar-item {
+    flex: 0 1 auto;
+    cursor: pointer;
+    padding: 0 20px;
+}
+
+a {
+    color: #469AE0;
+    text-decoration: none;
+}
+
+// .navbar-link-dark {
+//   color: $greygreen;
+// }

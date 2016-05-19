@@ -1,0 +1,28 @@
+h1 {
+  padding-top: 80px;
+}
+
+h2 {
+  margin: 30px;
+  font-weight: lighter;
+}
+
+p {
+  padding-bottom: 5px;
+}
+
+.cleanlist ul {
+  list-style-type: none;
+}
+
+.green-container {
+  border: 1px solid $greygreen;
+  background-color: $greygreen;
+  width: 750px;
+  height: 500px;
+  border-radius: 20px;
+  margin-top: 50px;
+  opacity: 0.5;
+  padding: 30px 30px;
+}
+
