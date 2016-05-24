@@ -15,14 +15,58 @@ p {
   list-style-type: none;
 }
 
-.green-container {
-  border: 1px solid $greygreen;
-  background-color: $greygreen;
-  width: 750px;
-  height: 500px;
-  border-radius: 20px;
-  margin-top: 50px;
-  opacity: 0.5;
-  padding: 30px 30px;
+// .green-container {
+//   border: 1px solid $greygreen;
+//   background-color: $greygreen;
+//   width: 750px;
+//   height: 500px;
+//   border-radius: 20px;
+//   margin-top: 50px;
+//   opacity: 0.5;
+//   padding: 30px 30px;
+// }
+
+#resume-buttons {
+  padding: 50px 20px;
 }
 
+.resume a {
+  font-size: 30px;
+  text-decoration: none;
+  color: $greygreen;
+}
+
+.resume a:hover {
+  color: #C89855;
+}
+// .icons-resume-uni {
+//   position: absolute;
+//   top: 20px;
+//   left: 20px;
+//   font-size: 30px;
+// }
+
+// .icons-resume-work {
+//   position: absolute;
+//   top: 20px;
+//   left: 50px;
+//   font-size: 30px;
+// }
+
+// .icons-resume-fun {
+//   position: absolute;
+//   top: 20px;
+//   left: 20px;
+//   font-size: 30px;
+// }
+
+// .icons-resume-code {
+//   position: absolute;
+//   top: 20px;
+//   left: 20px;
+//   font-size: 30px;
+// }
+
+// .tiny-p {
+//   font-size: 10px;
+// }

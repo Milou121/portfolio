@@ -7,6 +7,11 @@
   border-radius: 5px;
   margin-bottom: 20px;
 }
+
+.card a {
+  text-decoration: none;
+  color: white;
+}
 .card-user {
   position: absolute;
   right: 10px;
@@ -20,24 +25,30 @@
 }
 .card-description {
   position: absolute;
-  bottom: 10px;
-  left: 10px;
+  font-weight: lighter;
+  text-align: center;
+  padding: 10px 20px;
 }
-.card-description h2 {
-  font-size: 22px;
+.card-description h3 {
+  font-size: 20px;
 }
-.card-description p {
-  font-size: 15px;
+
+.card-description hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
+
 .card-link {
   position: absolute;
   top: 0;
   bottom: 0;
   width: 100%;
   z-index:2;
-  background: black;
+  background: $greygreen-dark;
   opacity: 0;
+  border-radius: 5px;
 }
 .card-link:hover{
-  opacity: 0.1;
+  opacity: 0.9;
+  transition: 750ms;
 }
