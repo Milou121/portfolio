@@ -3,7 +3,7 @@ h1 {
 }
 
 h2 {
-  margin: 30px;
+  margin: 30px 0px;
   font-weight: lighter;
 }
 
@@ -51,6 +51,12 @@ p {
 
 .resume a:hover {
   color: #C89855;
+}
+
+.wrapper {
+ display: flex;
+ justify-content:center;
+ align-content:center;
 }
 // .icons-resume-uni {
 //   position: absolute;
